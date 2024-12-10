@@ -9,15 +9,13 @@ function rate(stars) {
             starElement.classList.remove('selected');
         }
     });
-    selectedStars = stars; // Armazena a avaliação em 'selectedStars'
+    selectedStars = stars;
 }
 
 function like() {
     if (selectedStars > 0) {
-        // Preenche o campo oculto com o número de estrelas selecionadas
         document.getElementById('stars').value = selectedStars;
-        
-        // Envia o formulário
+
         document.getElementById('ratingForm').submit();
     } else {
         alert('Por favor, selecione uma avaliação!');
