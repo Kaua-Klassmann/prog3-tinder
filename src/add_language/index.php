@@ -26,6 +26,10 @@ if(isset($_POST['submit'])) {
         $erro = true;
     }
 }
+
+if(isset($erro)) {
+    echo "<script>alert('Preencha todos os campos!')</script>";
+}
 ?>
 
 <!DOCTYPE html>
