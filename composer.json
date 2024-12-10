@@ -1,0 +1,9 @@
+{
+    "name": "aluno/tinder",
+    "autoload": {
+        "psr-4": {
+            "": "src/classes"
+        }
+    },
+    "require": {}
+}

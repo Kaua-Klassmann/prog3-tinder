@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100dvh;
+    display: flex;
+    background-image: url("https://blogdaengenharia.com/wp-content/uploads/2021/07/Design-sem-nome-4.png") ;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    width: 100%;
+    height: 20dvh;
+    font-size: 3rem;
+    color: white
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70dvh;
+    height: 60dvh ;
+    background-color: black;
+    border-radius: 1.5dvh;
+}
+.container{
+    width: 100%;
+    height: 90dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+    height: 30dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.classBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 5dvh;
+}
+#lblEmailUser, #lblNomeUser, #lblPasswordUser{
+    font-size: 2rem;
+    color: white;
+}
+#nomeUser, #emailUser, #passwordUser{
+    height: 5dvh;
+    width: 30dvh;
+    border-radius: 1dvh;
+    cursor: auto;
+    padding-left: 2dvh;
+    font-size: 1rem;
+}
+#btnConfirm, #btnVoltar{
+    width: 20dvh;
+    height: 7dvh;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    font-size: 1.2rem;
+}
+#btnConfirm:hover, #btnVoltar:hover{
+    background-color: white;
+    color: black;
+}
