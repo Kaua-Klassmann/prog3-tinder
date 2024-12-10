@@ -1,77 +1,89 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    height: 100dvh;
+
+body {
+    height: 100vh;
     display: flex;
-    background-image: url("https://blogdaengenharia.com/wp-content/uploads/2021/07/Design-sem-nome-4.png") ;
-    background-repeat: no-repeat ;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://blogdaengenharia.com/wp-content/uploads/2021/07/Design-sem-nome-4.png");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: Arial, sans-serif;
 }
-h1{
-    width: 100%;
-    height: 20dvh;
-    font-size: 3rem;
-    color: white
-}
-main{
+
+main {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
-    width: 70dvh;
-    height: 60dvh ;
-    background-color: black;
-    border-radius: 1.5dvh;
-}
-.container{
     width: 100%;
-    height: 90dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 400px;
 }
-form{
-    width: 100%;
-    height: 30dvh;
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
 }
-.classBtn{
+
+.input-field {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding-top: 5dvh;
-}
-#lblEmailUser, #lblNomeUser, #lblPasswordUser{
-    font-size: 2rem;
-    color: white;
-}
-#nomeUser, #emailUser, #passwordUser{
-    height: 5dvh;
-    width: 30dvh;
-    border-radius: 1dvh;
-    cursor: auto;
-    padding-left: 2dvh;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
     font-size: 1rem;
 }
-#btnConfirm, #btnVoltar{
-    width: 20dvh;
-    height: 7dvh;
-    background-color: transparent;
+
+.login-button {
+    background-color: #ff9000;
     color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
     cursor: pointer;
-    border: 1px solid white;
-    font-size: 1.2rem;
+    transition: background-color 0.3s;
 }
-#btnConfirm:hover, #btnVoltar:hover{
-    background-color: white;
-    color: black;
+
+.login-button:hover {
+    background-color: #e57b00;
+}
+
+.form-footer {
+    margin-top: 20px;
+}
+
+.form-footer p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.form-footer a {
+    color: #ff9000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
 }

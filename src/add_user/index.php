@@ -33,28 +33,19 @@ if(isset($erro)) {
     <title>Cadastro de Usuário</title>
 </head>
 <body>
-    <div class="container">
-        <main>
-            <h1>Cadastro de Usuário</h1>
+    <main>
+        <div class="login-container">
+            <h2>Cadastro de Usuário</h2>
             <form action="index.php" method="post">
-                <div class="classNomeUser">
-                    <label id="lblNomeUser" for="nomeUser">Nome: </label>
-                    <input type="text" id="nomeUser" name="nome" required>
-                </div>
-                <div class="classEmailUser">
-                    <label id="lblEmailUser" for="emailUser">Email: </label>
-                    <input type="email" id="emailUser" name="email" required>
-                </div>
-                <div class="classPasswordUser">
-                    <label id="lblPasswordUser" for="">Senha: </label>
-                    <input type="password" id="passwordUser" name="senha" required>
-                </div>
-                <div class="classBtn">
-                    <button id="btnVoltar" onclick="location.href = '../login/'">Voltar</button>
-                    <input type="submit" value="Confirmar!" id="btnConfirm" name="submit">
+                <input type="text" class="input-field" placeholder="Nome" name="nome" required>
+                <input type="email" class="input-field" placeholder="Email" name="email" required>  
+                <input type="password" class="input-field" placeholder="Senha" name="senha" required>
+                <div class="form-footer">
+                    <button class="login-button" onclick="location.href = '../login/'">Voltar</button>
+                    <input type="submit" value="Confirmar!" class="login-button" name="submit">
                 </div>
             </form>
-        </main>
-    </div>
+        </div>
+    </main>
 </body>
 </html>
