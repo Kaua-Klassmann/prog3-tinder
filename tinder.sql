@@ -41,7 +41,7 @@ INSERT INTO `items` (`id`, `nome`, `imagem`) VALUES
 (1, 'C++', 'cplusplus'),
 (2, 'C', 'c'),
 (3, 'Javascript', 'javascript'),
-(4, 'Java', 'Java'),
+(4, 'Java', 'java'),
 (5, 'Python', 'python'),
 (6, 'C#', 'csharp'),
 (7, 'Rust', 'rust'),

@@ -39,7 +39,7 @@ class Item {
             FROM votos
             RIGHT JOIN items ON items.id = votos.id_item
             GROUP BY items.id
-            ORDER BY votos DESC";
+            ORDER BY votos DESC, nota DESC, nome ASC";
 
         return $conexao->consulta($sql);
     }
