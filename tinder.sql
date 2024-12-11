@@ -49,8 +49,8 @@ INSERT INTO `items` (`id`, `nome`, `imagem`) VALUES
 (9, 'Assembly', 'assembly'),
 (10, 'Php', 'php'),
 (11, 'Perl', 'perl'),
-(12, 'Shell', 'shell'),
-(13, 'Pascal', 'pascal'),
+(12, 'Bash', 'bash'),
+(13, 'Zig', 'zig'),
 (14, 'Fortran', 'fortran'),
 (15, 'Cobol', 'cobol');
 
